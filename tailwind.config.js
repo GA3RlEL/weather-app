@@ -9,6 +9,7 @@ export default {
       gridTemplateColumns: {
         auto1fr: "auto 1fr",
         auto3: "auto auto auto",
+        auto2: "auto auto",
       },
       gridTemplateRows: {
         auto1fr1fr: "auto 1fr 1fr",
