@@ -1,11 +1,9 @@
-import weather from "../images/weather.svg";
-import project from "../images/project.svg";
-import cloud from "../images/cloud.svg";
+import logo from "../images/logocloud.svg";
 
 function Navigation() {
   return (
     <nav className="lg:order-1 order-2  backdrop-blur bg-white/20 p-4 rounded-3xl flex lg:flex-col gap-12 items-center">
-      <object data={cloud}>Cloud</object>
+      <object data={logo}>Cloud</object>
       <ul className="flex lg:flex-col gap-6 ">
         <li className="flex flex-col items-center justify-center cursor-pointer my-svg">
           <svg
