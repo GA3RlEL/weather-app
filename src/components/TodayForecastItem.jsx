@@ -6,7 +6,7 @@ function TodayForecastItem({ index }) {
   return (
     <li className="backdrop-blur bg-white/20 rounded-2xl py-4 px-6 flex flex-col gap-3 items-center">
       <span>{hourlyWeatherData.time[index].slice(11, 13)}:00</span>
-      <object className="w-8" data={getWeatherIcon(index)}>
+      <object className="w-8 h-8" data={getWeatherIcon(index)}>
         weathericon
       </object>
       <p>{hourlyWeatherData.temperature_2m[index]}°</p>
