@@ -17,7 +17,7 @@ function Days7ForecastItem({ i }) {
               })}
         </p>
         <div className="flex gap-2">
-          <object className="w-4 flex" data={rain}>
+          <object className="w-4 h-4 flex" data={rain}>
             Rain
           </object>
           <span>{dailyWeatherData.precipitation_probability_max[i]}%</span>
