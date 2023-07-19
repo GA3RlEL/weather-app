@@ -32,7 +32,7 @@ function Navigation() {
           </svg>
           <span>Weather</span>
         </li>
-        <li className="flex flex-col items-center justify-center cursor-pointer my-svg">
+        {/* <li className="flex flex-col items-center justify-center cursor-pointer my-svg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -58,7 +58,7 @@ function Navigation() {
             </g>
           </svg>
           <span>About project</span>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
